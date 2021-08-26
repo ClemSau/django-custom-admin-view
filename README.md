@@ -9,5 +9,9 @@ A django app to create custom admin function-based and class-based views
 
 ## Expected behavior 
 - Simply inherit from a class (like `LoginRequiredMixin`)
-- Like for other admin pages, eequire the user to be connected and staff, else redirect to the admin login page
+- Like for other admin pages, require the user to be connected and staff, else redirect to the admin login page
 - Get the context variables to get the same look and feel of the other admin pages
+
+## TODO
+- [ ] Create a `AdminPageMixin` class
+- [ ] 
